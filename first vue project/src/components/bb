@@ -1,5 +1,0 @@
-var schemaNode = schemaTree.findNodeFromIndexPath("source", fromId);
-var srcNodeType;
-if(schemaNode){
-    srcNodeType = schemaTree.isAttribute(schemaNode)?"attribute":"element";
-}
